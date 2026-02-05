@@ -1,6 +1,6 @@
-# Using `uv` Package Manager on Ubuntu 24.04
+# Using `uv` Package Manager
 
-A practical, reproducible guide for installing and using **`uv`**, the ultra-fast Python package manager by Astral, on **Ubuntu 24.04**.
+A practical, reproducible guide for installing and using **`uv`**, the ultra-fast Python package manager by Astral.
 
 ---
 
@@ -12,16 +12,9 @@ A practical, reproducible guide for installing and using **`uv`**, the ultra-fas
 * `pip-tools`
 * `virtualenv`
 
-### Key advantages
-
-* ⚡ Extremely fast dependency resolution
-* 🔒 Deterministic, reproducible installs
-* 🧩 Single self-contained binary
-* 🛡️ Safer than system `pip` on Ubuntu
-
 ---
 
-## 2. Install `uv` on Ubuntu 24.04
+## 2. Install `uv` on 
 
 ### Official installer (recommended)
 
@@ -177,7 +170,7 @@ uv run uvicorn main:app --reload
 
 ---
 
-## 9. Ubuntu 24.04 System Safety Notes
+## 9. System Safety Notes
 
 * ❌ Do **not** use system `pip`
 * ✔️ Always install packages inside `.venv`
@@ -211,4 +204,4 @@ This makes `uv` safer than traditional `pip` on Ubuntu.
 
 ---
 
-**Last updated:** Ubuntu 24.04
+**Last updated:** 05-02-2026
