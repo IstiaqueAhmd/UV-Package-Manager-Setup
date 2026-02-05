@@ -204,4 +204,4 @@ This makes `uv` safer than traditional `pip` on Ubuntu.
 
 ---
 
-**Last updated:** 05-02-2026
+**Last updated:** 05-02-2026  - Istiaque Ahmed
